@@ -11,7 +11,7 @@ void init_timer()
 	/*タイマB2の設定*/
 	tck1_tb2mr=1;		/*タイマーモード：f32*/
 	tb2=5*6250-1;		/*50msで割り込み発生*/
-	ilvl0_tb2ic=2;		/*割り込みレベル2*/
+	ilvl0_tb2ic=1;		/*割り込みレベル1*/
 	tb2s = 1;			/*カウントスタート*/
 
 	/* 割込み許可*/ 
@@ -42,4 +42,5 @@ void dummy_timer_task()
 void int_tb2(void)
 {
 	(*timer_task)();
+	ir_tb2ic = 0;
 }

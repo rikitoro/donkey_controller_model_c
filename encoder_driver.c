@@ -162,4 +162,8 @@ void int_tb1(void)
 	// カウント数のリセット
 	countR = 0;
 	countL = 0;
+	
+	//
+	ir_tb1ic = 0;		/* 割込み要求クリア */	
+	
 }
