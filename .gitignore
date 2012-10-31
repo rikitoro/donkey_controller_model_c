@@ -1,2 +1,5 @@
 sfr.h
 ncrt.a30
+
+Debug/*.*
+!.gitignore
