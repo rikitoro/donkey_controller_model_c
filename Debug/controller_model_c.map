@@ -1,0 +1,113 @@
+Optimizing Linkage Editor (V.10.01.00.000)        31-Oct-2012 19:10:59
+
+*** Options ***
+
+-subcommand=D:\yoshiaki\devel\MDD\controller_model_c\Debug\controller_model_c.m16cl
+-noprelink
+-nomessage
+-list="D:\yoshiaki\devel\MDD\controller_model_c\Debug\controller_model_c.map"
+-nooptimize
+-start=data_SE,data_SO,bss_SE,bss_SO,data_NE,data_NO,bss_NE,bss_NO,data_FE,data_FO,bss_FE,bss_FO/0400,data_SEI,data_SOI,data_NEI,data_NOI,rom_NE,rom_NO,data_FEI,data_FOI,rom_FE,rom_FO,C$INIT,C$VTBL/0F000
+-nologo
+-stack
+-total_size
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\application.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\Controller.obj"
+-library="D:\yoshiaki\devel\MDD\controller_model_c\Debug\controller_model_c.lib"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\encoder_driver.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\encoder_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\init_devices.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\led_driver.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\led_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\motor_driver.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\motor_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\MotorPwm.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\MotorSpeed.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\ncrt0.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\PControlMethod.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\PControlMethodParm.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\RotaryEncoder.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\switch_driver.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\switch_driver_test.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\timer_driver.obj"
+-input="D:\yoshiaki\devel\MDD\controller_model_c\Debug\utility.obj"
+-output="D:\yoshiaki\devel\MDD\controller_model_c\Debug\controller_model_c.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+** L1323 (W) Section attribute mismatch : "program"
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+data_SO
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000413        14   2
+data_NO
+                                  00000414  00000414         0   1
+bss_NE
+                                  00000414  00000414         0   1
+bss_NO
+                                  00000414  00000414         0   1
+data_FE
+                                  00000414  00000414         0   1
+data_FO
+                                  00000414  00000414         0   1
+bss_FE
+                                  00000414  00000414         0   1
+bss_FO
+                                  00000414  00000414         0   1
+heap
+                                  00000400  00000400         0   1
+data_SEI
+                                  0000f000  0000f000         0   1
+data_SOI
+                                  0000f000  0000f000         0   1
+data_NEI
+                                  0000f000  0000f013        14   2
+data_NOI
+                                  0000f014  0000f014         0   1
+rom_NE
+                                  0000f014  0000f014         0   1
+rom_NO
+                                  0000f014  0000f014         0   1
+data_FEI
+                                  0000f014  0000f014         0   1
+data_FOI
+                                  0000f014  0000f014         0   1
+rom_FE
+                                  0000f014  0000f01b         8   2
+rom_FO
+                                  0000f01c  0000f01c         0   1
+program
+                                  000f0000  000f1d6b      1d6c   2
+VARIABLE_VECTOR
+                                  000ffe00  000ffeff       100   1
+FIXED_VECTOR
+                                  000fffdc  000fffff        24   1
+
+*** ID code information ***
+
+CHARACTOR STRING="ÿÿÿÿÿÿÿ"
+NUMERICAL VALUE=
+  000fffdf: ff
+  000fffe3: ff
+  000fffeb: ff
+  000fffef: ff
+  000ffff3: ff
+  000ffff7: ff
+  000ffffb: ff
+
+*** Protect code or OFSREG code information ***
+
+  000fffff: ff

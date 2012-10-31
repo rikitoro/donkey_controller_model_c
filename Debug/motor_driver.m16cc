@@ -1,0 +1,6 @@
+-lang=c
+-c
+-finfo
+-dir "D:\yoshiaki\devel\MDD\controller_model_c\Debug"
+-silent
+"D:\yoshiaki\devel\MDD\controller_model_c\motor_driver.c"
