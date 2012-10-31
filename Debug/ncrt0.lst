@@ -1,4 +1,4 @@
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 001
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 001
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -64,7 +64,7 @@
     60                             D            MOV.W           #(Top & 0FFFFH), A1             ; クリアするアドレス先頭番地を代入 
     61                             D            MOV.W           #Size, R3                       ; クリアサイズを代入 
     62                             D            SSTR.B                                          ; クリア実行
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 002
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 002
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -130,7 +130,7 @@
    122                                          .SECTION        data_NE, DATA
    123  00000                           data_NE_TOP:
    124                                  
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 003
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 003
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -196,7 +196,7 @@
    184  00003400h                       STACK_TOP       .EQU    (RAM_END + 1)
    185                                  .ENDIF
    186                                  
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 004
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 004
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -262,7 +262,7 @@
    245  F0055  AA0000r             M S          MOV.W           #data_NO_TOP, A1                                ; コピー先アドレス先頭番地を代入 
    246  F0058  75C30000r           M            MOV.W           #sizeof data_NO, R3                ; コピーサイズを代入 
    247  F005C  7CE8                M            SMOVF.B                                         ; コピー実行
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 005
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 005
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -328,7 +328,7 @@
    307                                  ;===========================================================
    308                                  ; 変数の初期値領域　NEAR領域　偶数 
    309                                  ;===========================================================
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 006
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 006
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -394,7 +394,7 @@
    369  FFE04  82000F00                         .LWORD          DUMMY                           ; 1             ; CAN0ウエイクアップ
    370  FFE08  82000F00                         .LWORD          DUMMY                           ; 2             ; CAN0受信完了 
    371  FFE0C  82000F00                         .LWORD          DUMMY                           ; 3             ; CAN0送信完了 
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 007
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 007
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 
@@ -460,7 +460,7 @@
    431  FFEE4  82000F00                         .LWORD          DUMMY                           ; 57            ; ソフトウェア
    432  FFEE8  82000F00                         .LWORD          DUMMY                           ; 58            ; ソフトウェア
    433  FFEEC  82000F00                         .LWORD          DUMMY                           ; 59            ; ソフトウェア
-* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 16:45:29 2012  PAGE 008
+* M16C Series and R8C Family Assmbler *   SOURCE LIST       Wed Oct 31 19:28:04 2012  PAGE 008
 
   SEQ.  LOC.   OBJ.              0XMSDA ....*....SOURCE STATEMENT....7....*....8....*....9....*....0....*....1....*....2....*....3....*....4....*....5....*....6....*....7....*....8....*....9....*....0
 

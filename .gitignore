@@ -1,5 +1,5 @@
-sfr.h
-ncrt.a30
+sfr29.h
+ncrt0.a30
 
 Debug/*.*
 !.gitignore
