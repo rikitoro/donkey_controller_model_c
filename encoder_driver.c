@@ -1,11 +1,11 @@
 #include "sfr29.h"
 #include "encoder_driver.h"
 
-#pragma INTERRUPT int_tb1		/*タイマB1アンダーフロー割り込み*/
-#pragma INTERRUPT int_int1		/*右車輪A相*/
-#pragma INTERRUPT int_int2		/*右車輪B相*/
-#pragma INTERRUPT int_int3		/*左車輪A相*/
-#pragma INTERRUPT int_int4		/*左車輪B相*/
+//#pragma INTERRUPT int_tb1		/*タイマB1アンダーフロー割り込み*/
+//#pragma INTERRUPT int_int1		/*右車輪A相*/
+//#pragma INTERRUPT int_int2		/*右車輪B相*/
+//#pragma INTERRUPT int_int3		/*左車輪A相*/
+//#pragma INTERRUPT int_int4		/*左車輪B相*/
 
 //
 const int CPR = 32;			// モータ1回転あたりのエンコーダカウント数
@@ -13,10 +13,10 @@ const float DELTA_T = 20.0; // タイマー周期 20 [ms]
 
 
 /*グローバル変数*/
-int countR = 0;	// 右ロータリエンコーダのカウント値
-int countL = 0; // 左ロータリエンコーダのカウント値
-int countR_prev = 0;
-int countL_prev = 0;
+static int countR = 0;	// 右ロータリエンコーダのカウント値
+static int countL = 0; // 左ロータリエンコーダのカウント値
+static int countR_prev = 0;
+static int countL_prev = 0;
 
 void init_encoder()
 {
@@ -35,9 +35,9 @@ void init_encoder()
 	ifsr = 0x5e;			/*INT1,2,3,4 両エッジで割り込み*/
 			
 	/* 割込み許可*/ 
-	#pragma ASM
-		FSET I
-	#pragma ENDASM
+//	#pragma ASM
+//		FSET I
+//	#pragma ENDASM
 }
 
 

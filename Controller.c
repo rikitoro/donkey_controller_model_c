@@ -12,14 +12,10 @@ int C_getTargetValue(void)
 	return MS_getTargetValue();
 }
 
-float C_getControlMethodParm(void)
-{
-	return PCP_getKParm();
-}
 
-void C_setControlMethodParm(float parm)
+void C_setControlParameter(float kp)
 {
-	PCP_setKParm(parm);
+	PC_setControlParameter(kp);
 }
 
 void C_doControl() {

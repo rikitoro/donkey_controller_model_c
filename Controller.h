@@ -17,13 +17,25 @@
 #include "PControlMethodParm.h"
 
 /**
- * 回転速度を取得
- * @return 回転速度 [rps]
+ * 目標回転速度を設定する
+ * @param target 目標回転速度 [rps]
  */
 extern void C_setTargetValue(int target);
+
+/**
+ * 目標回転速度を取得する
+ * @return 目標回転速度 [rps]
+ */
 extern int C_getTargetValue(void);
+
+/**
+ * 1サイクル制御を行う
+ */
 extern void C_doControl();
-extern float C_getControlMethodParm(void);
-extern void C_setControlMethodParm(float parm);
+
+/**
+ * 1サイクル制御を行う
+ */
+extern void C_setControlParameter(float kp);
 
 #endif // _CONTROLLER

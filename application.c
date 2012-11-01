@@ -33,9 +33,9 @@ void main()
 
 void test_C() {
 
-	C_setControlMethodParm(0.1);
+	C_setControlParameter(0.05);
 	C_setTargetValue(62);
-	//set_timer_task(C_doControl);
+	//;set_timer_task(C_doControl);
 
 	while(1){
 		C_doControl();
@@ -76,14 +76,10 @@ void test_RS() {
 	}
 }	 
 
-void test_PCP() {
-	PCP_setKParm(3.0);
-	
-}
 
 void test_PC() {
 	PC_initialize();
-	PC_setControlParm(1.0);
+	PC_setControlParameter(1.0);
 	MP_setLevel(20);
 	
 	/*

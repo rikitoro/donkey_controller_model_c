@@ -1,10 +1,8 @@
 #include "sfr29.h"
 #include "timer_driver.h"
+//#pragma INTERRUPT int_tb2 // タイマーB2割り込みハンドラ
 
-#pragma INTERRUPT int_tb2 // タイマーB2割り込みハンドラ
-
-void dummy_timer_task();
-static void (*timer_task)() = dummy_timer_task;
+static void (*timer_task)() = null_task;
 
 void init_timer()
 {
@@ -16,9 +14,9 @@ void init_timer()
 
 	/* 割込み許可*/ 
 
-	#pragma ASM
-		FSET I
-	#pragma ENDASM
+//	#pragma ASM
+//		FSET I
+//	#pragma ENDASM
 }
 
 
@@ -28,11 +26,8 @@ void set_timer_task(void (*task)())
 }
 
 
-/*******************
- private functions
-*******************/
 
-void dummy_timer_task()
+void null_task()
 {
 }
 
@@ -41,6 +36,7 @@ void dummy_timer_task()
 ******************************************************************************/
 void int_tb2(void)
 {
-	(*timer_task)();
+	C_doControl();
+	//(*timer_task)();
 	ir_tb2ic = 0;
 }

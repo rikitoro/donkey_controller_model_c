@@ -16,6 +16,12 @@ void init_devices()
 	init_switch();
 	init_motor();
 	init_encoder();
+	//init_timer();
+
+	/* Š„‚İ‹–‰Â*/ 
+	#pragma ASM
+		FSET I
+	#pragma ENDASM
 }
 
 

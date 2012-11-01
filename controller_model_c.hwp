@@ -139,6 +139,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "User" "C source file|Application" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "User" "C source file|Driver" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver_test.c" "User" "C source file|Driver|test" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\init_devices.c" "User" "C source file|Application" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver.c" "User" "C source file|Driver" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver_test.c" "User" "C source file|Driver|test" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\motor_driver.c" "User" "C source file|Driver" 2 
@@ -180,6 +181,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver_test.c" "0f748635767bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\init_devices.c" "04fe8bc4997bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver_test.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\motor_driver.c" "0f748635767bdc10" 2 
@@ -191,11 +193,11 @@
 [OPTIONS_Debug_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0f748635767bdc10" 1 
 [OPTIONS_Debug_Renesas M16C Configurator]
-"Single Shot" "006e9461977bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Debug_Renesas M16C ConfiguratorR8C]
-"Single Shot" "006e9461977bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Debug_Renesas OptLinker]
-"Single Shot" "08000561977bdc10" 5 
+"Single Shot" "0f8d85ea997bdc10" 5 
 [OPTIONS_Debug]
 "" 0 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
@@ -225,6 +227,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver_test.c" "0f748635767bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\init_devices.c" "04fe8bc4997bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\led_driver_test.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\motor_driver.c" "0f748635767bdc10" 2 
@@ -236,11 +239,11 @@
 [OPTIONS_Release_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0f748635767bdc10" 1 
 [OPTIONS_Release_Renesas M16C Configurator]
-"Single Shot" "006e9461977bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Release_Renesas M16C ConfiguratorR8C]
-"Single Shot" "006e9461977bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Release_Renesas OptLinker]
-"Single Shot" "08000561977bdc10" 5 
+"Single Shot" "03b10cc4997bdc10" 5 
 [OPTIONS_Release]
 "" 0 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 

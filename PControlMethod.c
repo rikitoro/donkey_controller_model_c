@@ -1,24 +1,21 @@
 #include "PControlMethod.h"
 
+static float PC_kp = 0.0;
 static int PC_prevControlValue = 0;
-int PC_truncate(int value);
 
-//制御パラメータを取得する
-float PC_getControlParm(void)
-{
-	return PCP_getKParm();
-}
+static int PC_truncate(int value);
+
 
 //制御パラメータを設定する
-void PC_setControlParm(float parm)
+void PC_setControlParameter(float kp)
 {
-	PCP_setKParm(parm);
+	PC_kp = kp;
 }
 
 //操作量を算出する
 int PC_calcControlValue(int targetValue,int currentValue,float deltaTime)
 {
-	const float kp = PC_getControlParm();
+	const float kp = PC_kp;
 	const int deviation = targetValue - currentValue;
 	const int calcValue = (int)(PC_prevControlValue + kp * deltaTime * 0.001 * deviation);
 	const int controlValue = PC_truncate(calcValue);
@@ -35,7 +32,7 @@ void PC_initialize(void)
 
 
 //
-int PC_truncate(int value)
+static int PC_truncate(int value)
 {
 	const int Max = 100;
 	const int Min = -100;
@@ -48,7 +45,3 @@ int PC_truncate(int value)
 		return value;
 	}
 }
-
-
-
-
