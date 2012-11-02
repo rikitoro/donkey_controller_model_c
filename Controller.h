@@ -38,4 +38,16 @@ extern void C_doControl();
  */
 extern void C_setControlParameter(float kp);
 
+
+/**
+ * §Œä‚ğŠJn‚·‚é
+ */
+extern void C_start();
+
+/**
+ * §Œä‚ğ’â~‚·‚é
+ */
+extern void C_stop();
+
+
 #endif // _CONTROLLER

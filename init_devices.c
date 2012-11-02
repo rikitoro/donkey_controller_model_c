@@ -5,6 +5,7 @@
 #include "led_driver.h"
 #include "motor_driver.h"
 #include "switch_driver.h"
+#include "timer_driver.h"
 
 void init_cpu();
 
@@ -16,7 +17,7 @@ void init_devices()
 	init_switch();
 	init_motor();
 	init_encoder();
-	//init_timer();
+	init_timer();
 
 	/* Š„‚İ‹–‰Â*/ 
 	#pragma ASM

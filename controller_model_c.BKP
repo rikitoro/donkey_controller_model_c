@@ -134,6 +134,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorPwm.c" "User" "C source file|Hardware" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorSpeed.c" "User" "C source file|ControllerModel" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\PControlMethod.c" "User" "C source file|ControlAlgorithm" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\PControlMethodParm.c" "User" "C source file|ControlAlgorithm" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\RotaryEncoder.c" "User" "C source file|Hardware" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "User" "C source file|Application" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "User" "C source file|Driver" 2 
@@ -175,6 +176,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorPwm.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorSpeed.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\PControlMethod.c" "0f748635767bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\PControlMethodParm.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\RotaryEncoder.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "0f748635767bdc10" 2 
@@ -191,11 +193,11 @@
 [OPTIONS_Debug_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0f748635767bdc10" 1 
 [OPTIONS_Debug_Renesas M16C Configurator]
-"Single Shot" "02d7e7e9598bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Debug_Renesas M16C ConfiguratorR8C]
-"Single Shot" "02d7e7e9598bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Debug_Renesas OptLinker]
-"Single Shot" "0aaeb8e9598bdc10" 5 
+"Single Shot" "0f8d85ea997bdc10" 5 
 [OPTIONS_Debug]
 "" 0 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
@@ -220,6 +222,7 @@
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorPwm.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\MotorSpeed.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\PControlMethod.c" "0f748635767bdc10" 2 
+"D:\yoshiaki\devel\MDD\controller_model_c\PControlMethodParm.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\RotaryEncoder.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\application.c" "0f748635767bdc10" 2 
 "D:\yoshiaki\devel\MDD\controller_model_c\encoder_driver.c" "0f748635767bdc10" 2 
@@ -236,11 +239,11 @@
 [OPTIONS_Release_Renesas M16C C/C++ Library Generator]
 "Single Shot" "0f748635767bdc10" 1 
 [OPTIONS_Release_Renesas M16C Configurator]
-"Single Shot" "02d7e7e9598bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Release_Renesas M16C ConfiguratorR8C]
-"Single Shot" "02d7e7e9598bdc10" 6 
+"Single Shot" "04fe8bc4997bdc10" 6 
 [OPTIONS_Release_Renesas OptLinker]
-"Single Shot" "0aaeb8e9598bdc10" 5 
+"Single Shot" "03b10cc4997bdc10" 5 
 [OPTIONS_Release]
 "" 0 
 "[V|VERSION|1] [B|COMMAND|1] [S|SPEC|UITRON4] " 6 
