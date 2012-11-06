@@ -29,8 +29,7 @@ void test_C() {
 	while(1){ // 100[ms]ごとに1サイクル制御をおこなう。
 		C_doControl();
 		wait_ms(100);
-		set_led((char)MS_getValue());
-		
+		set_led((char)MS_getValue());		
 	}
 }
 

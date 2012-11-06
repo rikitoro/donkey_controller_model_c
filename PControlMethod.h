@@ -11,7 +11,6 @@
 #ifndef _PCONTROLMETHOD
 #define _PCONTROLMETHOD
 
-#include "PControlMethodParm.h"
 
 /**
  * §Œä—Ê‚ğZo‚·‚é

@@ -14,7 +14,6 @@
 #include "MotorSpeed.h"
 #include "MotorPwm.h"
 #include "PControlMethod.h"
-#include "PControlMethodParm.h"
 
 /**
  * –Ú•W‰ñ“]‘¬“x‚ğİ’è‚·‚é
